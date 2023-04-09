@@ -6,12 +6,12 @@ import Navbar from '../Header/Navbar/Navbar';
 const Layout = () => {
     return (
 
-        <div>
-            <div className="navbarContainer my-container">
+        <div className='border border-red-400 my-container' >
+            <div className="navbarContainer my-bg-clr ">
                 <Navbar></Navbar>
             </div>
 
-            <div className="outlet my-container">
+            <div className="outlet my-bg-clr">
                 <Outlet></Outlet>
             </div>
             

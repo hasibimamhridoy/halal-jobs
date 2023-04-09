@@ -11,7 +11,7 @@ const Layout = () => {
                 <Navbar></Navbar>
             </div>
 
-            <div className="outlet my-bg-clr">
+            <div className="outlet ">
                 <Outlet></Outlet>
             </div>
             

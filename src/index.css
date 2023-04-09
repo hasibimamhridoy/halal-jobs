@@ -13,3 +13,9 @@
 .my-bg-clr{
     @apply bg-[#f9f9ff]
 }
+.my-title{
+    @apply font-bold lg:text-4xl text-xl text-center
+}
+.my-title-desc{
+    @apply text-sm text-center text-gray-500
+}

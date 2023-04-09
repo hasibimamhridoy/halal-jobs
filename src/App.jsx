@@ -21,6 +21,7 @@ function App() {
         {
           path:'/',
           element:<Home></Home>,
+          loader:()=>fetch('jobCatagory.json')
         },
         {
           path:'/statistics',

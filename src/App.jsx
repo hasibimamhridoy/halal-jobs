@@ -1,13 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Layout from './components/Layout/Layout';
+import Home from './components/Home/Home';
+import Statistics from './components/Statistics/Statistics';
+import AppliedJob from './components/AppliedJobs/AppliedJob';
+import Blog from './components/Blog/Blog';
 
 function App() {
+
+  const router = createBrowserRouter([
+    {
+      path:'/',
+      element:<Layout></Layout>,
+      errorElement:<Error></Error>,
+      children:[
+        {
+          path:'/',
+          element:<Home></Home>,
+        },
+        {
+          path:'/statistics',
+          element:<Statistics></Statistics>,
+        },
+        {
+          path:'/appliedJobs/:jobId',
+          element:<AppliedJob></AppliedJob>,
+        },
+        {
+          path:'/blog',
+          element:<Blog></Blog>,
+        },
+      ]
+    }
+  ])
   
   return (
     <div className="App">
-     <h1 className='bg-red-400'>Hello</h1>
+     <RouterProvider router={router}></RouterProvider>
     </div>
   )
 }

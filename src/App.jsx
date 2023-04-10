@@ -22,7 +22,7 @@ function App() {
       path:'/',
       element:<Layout></Layout>,
       loader:()=>fetch('featuredJobs.json'),
-      errorElement:<Error></Error>,
+      errorElement:<ErrorPage></ErrorPage>,
       children:[
         {
           path:'/',

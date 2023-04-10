@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -26,33 +27,104 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <li>
+              <NavLink
+                to="/"
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "active" : ""
+                }
+              >
+                <li>
                 <a>Home</a>
               </li>
-              <li tabIndex={0}>
+              </NavLink>
+              
+              
+              
+
+              <NavLink
+                to="/statistics"
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "active" : ""
+                }
+              >
+                <li tabIndex={0}>
                 <a className="justify-between">Statistics</a>
               </li>
-              <li>
+              </NavLink>
+
+              <NavLink
+                to="/appliedJobs"
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "active" : ""
+                }
+              >
+                <li>
                 <a>Applied Jobs</a>
               </li>
+              </NavLink>
+
+
+
+              
             </ul>
           </div>
           <a className="p-0 m-0 text-xl cursor-pointer">Halal Jobs</a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Home</a>
-            </li>
-            <li tabIndex={0}>
-              <a>Statistics</a>
-            </li>
-            <li>
-              <a>Applied Jobs</a>
-            </li>
-            <li>
+             <NavLink
+                to="/"
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "active" : ""
+                }
+              >
+                <li>
+                <a>Home</a>
+              </li>
+              </NavLink>
+
+
+
+              <NavLink
+                to="/statistics"
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "active" : ""
+                }
+              >
+                <li tabIndex={0}>
+                <a className="justify-between">Statistics</a>
+              </li>
+              </NavLink>
+
+
+            <NavLink
+                to="/appliedJobs"
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "active" : ""
+                }
+              >
+                <li>
+                <a>Applied Jobs</a>
+              </li>
+              </NavLink>
+
+
+            <NavLink
+                to="/blog"
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "active" : ""
+                }
+              >
+                 <li>
               <a>Blog</a>
             </li>
+              </NavLink>
+            
+
+            
+            
+            
+           
           </ul>
         </div>
         <div className="navbar-end mt-2">

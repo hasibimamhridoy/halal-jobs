@@ -10,7 +10,10 @@ import Statistics from './components/Statistics/Statistics';
 import AppliedJob from './components/AppliedJobs/AppliedJob';
 import Blog from './components/Blog/Blog';
 import FeaturedJobs from './components/FeaturedJobs/FeaturedJobs';
-import FeaturedJobsDetails from './components/featuredJobsDetails/featuredJobsDetails';
+import FeaturedJobsDetails from './components/FeaturedJobsDetails/FeaturedJobsDetails';
+import { ToastContainer, toast } from 'react-toastify';
+
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
@@ -18,6 +21,7 @@ function App() {
     {
       path:'/',
       element:<Layout></Layout>,
+      loader:()=>fetch('featuredJobs.json'),
       errorElement:<Error></Error>,
       children:[
         {
@@ -36,7 +40,7 @@ function App() {
           element:<Statistics></Statistics>,
         },
         {
-          path:'/appliedJobs/:jobId',
+          path:'/appliedJobs',
           element:<AppliedJob></AppliedJob>,
         },
         {
@@ -50,6 +54,7 @@ function App() {
   return (
     <div className="App">
      <RouterProvider router={router}></RouterProvider>
+     <ToastContainer />
     </div>
   )
 }

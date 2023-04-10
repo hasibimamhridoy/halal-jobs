@@ -3,11 +3,9 @@ import { Link, useParams } from "react-router-dom";
 import { CurrencyDollarIcon, MapPinIcon } from "@heroicons/react/24/solid";
 
 const FeaturedJobs = ({ featuredJobs }) => {
-  console.log(featuredJobs);
+
 
   const [isShowMore,setIsShowMore] = useState(false)
-  console.log(isShowMore);
-
   const isShowMoreF = ()=>{
     setIsShowMore(!isShowMore)
   }

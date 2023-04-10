@@ -1,0 +1,185 @@
+[
+    {
+      "id": 1,
+      "company_logo": "f_1.png",
+      "job_title": "Software Engineer",
+      "company_name": "ABC Corporation",
+      "remote_or_onsite": "Remote",
+      "location": "New York, NY",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$90,000 - $110,000",
+      "job_description": "We are seeking a software engineer to join our team...",
+      "job_responsibility": "Develop and maintain software applications...",
+      "educational_requirements": "Bachelor's degree in Computer Science or related field",
+      "experiences": "3+ years of experience in software development",
+      "contact_information": {
+        "phone": "(123) 456-7890",
+        "email": "jobs@abccorp.com"
+      }
+    },
+    {
+      "id": 2,
+      "company_logo": "f_2.png",
+      "job_title": "Marketing Coordinator",
+      "company_name": "Petrakis",
+      "remote_or_onsite": "Onsite",
+      "location": "Los Angeles, CA",
+      "fulltime_or_parttime": "Part-time",
+      "salary": "$25 - $30 per hour",
+      "job_description": "We are seeking a marketing coordinator to support our marketing team...",
+      "job_responsibility": "Assist with the development and execution of marketing campaigns...",
+      "educational_requirements": "Bachelor's degree in Marketing or related field",
+      "experiences": "1+ years of experience in marketing",
+      "contact_information": {
+        "phone": "(123) 456-7890",
+        "email": "jobs@xyzcorp.com"
+      }
+    },
+    {
+      "id": 3,
+      "company_logo": "f_3.png",
+      "job_title": "Graphic Designer",
+      "company_name": "Miller & Lage",
+      "remote_or_onsite": "Onsite",
+      "location": "Seattle, WA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$50,000 - $60,000",
+      "job_description": "We are seeking a graphic designer to create visual concepts...",
+      "job_responsibility": "Develop and design creative solutions for various projects...",
+      "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+      "experiences": "2+ years of experience in graphic design",
+      "contact_information": {
+        "phone": "(123) 456-7890",
+        "email": "jobs@lmndesign.com"
+      }
+    },
+    {
+      "id": 4,
+      "company_logo": "f_4.png",
+      "job_title": "Human Resources Manager",
+      "company_name": "Lewoint",
+      "remote_or_onsite": "Onsite",
+      "location": "Atlanta, GA",
+      "fulltime_or_parttime": "Full-time",
+      "salary": "$80,000 - $100,000",
+      "job_description": "We are seeking a human resources manager to oversee our HR operations...",
+      "job_responsibility": "Develop and implement HR strategies...",
+      "educational_requirements": "Bachelor's degree in Human Resources or related field",
+      "experiences": "5+ years of experience in HR management",
+      "contact_information": {
+        "phone": "(123) 456-7890",
+        "email": "jobs@pqrinc.com"}
+    },
+
+
+{
+"id": 5,
+"company_logo": "f_5.png",
+"job_title": "Accountant",
+"company_name": "Financial Consulting Agency",
+"remote_or_onsite": "Onsite",
+"location": "Houston, TX",
+"fulltime_or_parttime": "Full-time",
+"salary": "$50,000 - $70,000",
+"job_description": "We are seeking an accountant to manage financial records...",
+"job_responsibility": "Prepare and analyze financial statements...",
+"educational_requirements": "Bachelor's degree in Accounting or related field",
+"experiences": "3+ years of experience in accounting",
+"contact_information": {
+"phone": "(123) 456-7890",
+"email": "jobs@ghiacctfirm.com"
+}
+},
+{
+"id": 6,
+"company_logo": "f_6.png",
+"job_title": "Front-end Developer",
+"company_name": "Maria Alonso",
+"remote_or_onsite": "Remote",
+"location": "San Francisco, CA",
+"fulltime_or_parttime": "Full-time",
+"salary": "$100,000 - $120,000",
+"job_description": "We are seeking a front-end developer to build and maintain web applications...",
+"job_responsibility": "Develop and implement user-friendly interfaces...",
+"educational_requirements": "Bachelor's degree in Computer Science or related field",
+"experiences": "4+ years of experience in front-end development",
+"contact_information": {
+"phone": "(123) 456-7890",
+"email": "jobs@mno.com"
+}
+},
+{
+"id": 7,
+"company_logo": "f_7.png",
+"job_title": "Data Analyst",
+"company_name": "Warner & Spencer",
+"remote_or_onsite": "Remote",
+"location": "Chicago, IL",
+"fulltime_or_parttime": "Full-time",
+"salary": "$70,000 - $90,000",
+"job_description": "We are seeking a data analyst to interpret data...",
+"job_responsibility": "Collect and analyze data to identify trends...",
+"educational_requirements": "Bachelor's degree in Mathematics, Statistics, or related field",
+"experiences": "2+ years of experience in data analysis",
+"contact_information": {
+"phone": "(123) 456-7890",
+"email": "jobs@pqranalytics.com"
+}
+},
+{
+"id": 8,
+"company_logo": "f_8.png",
+"job_title": "Technical Writer",
+"company_name": "Sletter",
+"remote_or_onsite": "Remote",
+"location": "Boston, MA",
+"fulltime_or_parttime": "Part-time",
+"salary": "$30 - $40 per hour",
+"job_description": "We are seeking a technical writer to create documentation...",
+"job_responsibility": "Research and write technical documents...",
+"educational_requirements": "Bachelor's degree in Technical Writing, English, or related field",
+"experiences": "1+ years of experience in technical writing",
+"contact_information": {
+"phone": "(123) 456-7890",
+"email": "jobs@xyztechsol"}
+},
+{
+"id": 9,
+"company_logo": "f_9.png",
+"job_title": "Marketing Manager",
+"company_name": "Markets",
+"remote_or_onsite": "Onsite",
+"location": "New York, NY",
+"fulltime_or_parttime": "Full-time",
+"salary": "$90,000 - $110,000",
+"job_description": "We are seeking a marketing manager to develop and execute marketing strategies...",
+"job_responsibility": "Plan and oversee advertising and promotional activities...",
+"educational_requirements": "Bachelor's degree in Marketing or related field",
+"experiences": "5+ years of experience in marketing",
+"contact_information": {
+"phone": "(123) 456-7890",
+"email": "jobs@abcmarketing.com"
+}
+},
+{
+"id": 10,
+"company_logo": "f_10.png",
+"job_title": "Customer Service Representative",
+"company_name": "George",
+"remote_or_onsite": "Onsite",
+"location": "Dallas, TX",
+"fulltime_or_parttime": "Part-time",
+"salary": "$15 - $20 per hour",
+"job_description": "We are seeking a customer service representative to handle customer inquiries...",
+"job_responsibility": "Respond to customer inquiries and resolve issues...",
+"educational_requirements": "High school diploma or equivalent",
+"experiences": "1+ years of experience in customer service",
+"contact_information": {
+"phone": "(123) 456-7890",
+"email": "jobs@lmnservices.com"
+}
+}
+
+
+]
+

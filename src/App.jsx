@@ -9,6 +9,8 @@ import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import AppliedJob from './components/AppliedJobs/AppliedJob';
 import Blog from './components/Blog/Blog';
+import FeaturedJobs from './components/FeaturedJobs/FeaturedJobs';
+import FeaturedJobsDetails from './components/featuredJobsDetails/featuredJobsDetails';
 
 function App() {
 
@@ -21,8 +23,14 @@ function App() {
         {
           path:'/',
           element:<Home></Home>,
-          loader:()=>fetch('jobCatagory.json')
+          loader:()=>fetch('featuredJobs.json')
         },
+        {
+          path:'/featuredJobs/:feaId',
+          element:<FeaturedJobsDetails></FeaturedJobsDetails>,
+          loader:({params})=>fetch('/featuredJobs.json')
+        },
+        
         {
           path:'/statistics',
           element:<Statistics></Statistics>,

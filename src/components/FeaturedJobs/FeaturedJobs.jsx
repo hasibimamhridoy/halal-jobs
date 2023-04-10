@@ -11,12 +11,11 @@ const FeaturedJobs = ({ featuredJobs }) => {
   }
 
   return (
-    <div>
+    <div className="lg:px-20 ">
       <div className="space-y-4">
         <h1 className="my-title">Featured Jobs</h1>
         <h1 className="my-title-desc">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
-          sunt necessitatibus cupiditate laborum error explicabo?
+        There are many types of featured Jobs.You can easyly apply to any job in just one onClick.Halal jobs helps you get the halal Jobs
         </h1>
       </div>
 
@@ -41,11 +40,11 @@ const FeaturedJobs = ({ featuredJobs }) => {
               <div className="py-3">
                 <h1 className="text-lg">{job.job_title}</h1>
                 <h1 className="text-sm text-gray-500">{job.company_name}</h1>
-                <div className="full-time flex gap-3 lg:gap-5 mt-3">
-                  <h1 className="border px-6 py-1 rounded-sm text-center border-solid border-blue-600 text-blue-500">
+                <div className="full-time cursor-pointer flex gap-3 lg:gap-5 mt-3">
+                  <h1 className="border  px-6 py-1 rounded-sm text-center border-solid border-blue-600 text-blue-500">
                     {job.remote_or_onsite}
                   </h1>
-                  <h1 className="border px-6 py-1 rounded-sm text-center border-solid border-blue-600 text-blue-500">
+                  <h1 className="border  px-6 py-1 rounded-sm text-center border-solid border-blue-600 text-blue-500">
                     {job.fulltime_or_parttime}
                   </h1>
                 </div>

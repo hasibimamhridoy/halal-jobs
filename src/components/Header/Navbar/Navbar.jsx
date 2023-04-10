@@ -30,7 +30,7 @@ const Navbar = () => {
               <NavLink
                 to="/"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
+                  isPending ? "pending" : isActive ? "my-active-clr" : ""
                 }
               >
                 <li>
@@ -44,7 +44,7 @@ const Navbar = () => {
               <NavLink
                 to="/statistics"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
+                  isPending ? "pending" : isActive ? "my-active-clr" : ""
                 }
               >
                 <li tabIndex={0}>
@@ -55,7 +55,7 @@ const Navbar = () => {
               <NavLink
                 to="/appliedJobs"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
+                  isPending ? "pending" : isActive ? "my-active-clr" : ""
                 }
               >
                 <li>
@@ -63,19 +63,40 @@ const Navbar = () => {
               </li>
               </NavLink>
 
+              <NavLink
+                to="/blog"
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "my-active-clr" : ""
+                }
+              >
+                 <li>
+              <a>Blog</a>
+            </li>
+              </NavLink>
+
 
 
               
             </ul>
           </div>
-          <a className="p-0 m-0 text-xl cursor-pointer">Halal Jobs</a>
+          <NavLink
+                to="/"
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "my-active-clr" : ""
+                }
+              >
+              
+                 <a className="p-0 m-0 text-xl cursor-pointer">Halal Jobs</a>
+            
+              </NavLink>
+         
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
              <NavLink
                 to="/"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
+                  isPending ? "pending" : isActive ? "my-active-clr" : ""
                 }
               >
                 <li>
@@ -88,7 +109,7 @@ const Navbar = () => {
               <NavLink
                 to="/statistics"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
+                  isPending ? "pending" : isActive ? "my-active-clr" : ""
                 }
               >
                 <li tabIndex={0}>
@@ -100,7 +121,7 @@ const Navbar = () => {
             <NavLink
                 to="/appliedJobs"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
+                  isPending ? "pending" : isActive ? "my-active-clr" : ""
                 }
               >
                 <li>
@@ -112,7 +133,7 @@ const Navbar = () => {
             <NavLink
                 to="/blog"
                 className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
+                  isPending ? "pending" : isActive ? "my-active-clr" : ""
                 }
               >
                  <li>
@@ -128,7 +149,16 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end mt-2">
-          <a className="my-btn">Start Applying</a>
+        <NavLink
+                to="/appliedJobs"
+                className={({ isActive, isPending }) =>
+                  isPending ? "pending" : isActive ? "my-active-clr" : ""
+                }
+              >
+               
+                <a className="my-btn">Start Applying</a>
+             
+              </NavLink>
         </div>
       </div>
     </div>

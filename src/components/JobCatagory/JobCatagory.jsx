@@ -2,13 +2,12 @@ import React from 'react';
 
 const JobCatagory = ({jobCatagory}) => {
     return (
-        <div className="jobCatagory mt-10 mb-10 px-2 lg:px-0 space-y-10">
+        <div className="jobCatagory mt-10 mb-10 lg:px-20  px-2 space-y-10">
         
         <div className="space-y-4">
         <h1 className="my-title">Job Category List</h1>
         <h1 className="my-title-desc">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti
-          sunt necessitatibus cupiditate laborum error explicabo?
+          There are four catagory to get you halal dream job.Halal jobs helps you get the halal Jobs
         </h1>
         </div>
 

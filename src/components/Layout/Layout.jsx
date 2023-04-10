@@ -72,12 +72,13 @@ const Layout = () => {
   console.log(filterValue);
 
   return (
-    <div className="border border-red-400 my-container">
-      <div className="navbarContainer my-bg-clr ">
+    <div className="border my-container">
+      
+      <div className="navbarContainer my-bg-clr lg:px-20 ">
         <Navbar></Navbar>
       </div>
 
-      <div className="outlet ">
+      <div className="outlet bg-white  ">
         <Outlet
           context={[handleApplyNow, applyJob, filterbyTime,filterValue,setIsfilter,isFilter]}
         ></Outlet>

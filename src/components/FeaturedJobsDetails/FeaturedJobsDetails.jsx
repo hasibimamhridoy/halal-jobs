@@ -33,7 +33,7 @@ import {
           <h1 className="my-title">Job Details</h1>
         </div>
   
-        <div className="apply-details-container lg:flex lg:flex-row lg:px-0 px-2 justify-between">
+        <div className="apply-details-container lg:px-20 lg:flex lg:flex-row px-2 justify-between">
           <div className="job-details lg:w-[65%] w-full lg:mt-16 mt-7 space-y-4">
             <h1>
               <span className="font-bold text-md"> Job Description: </span>{" "}

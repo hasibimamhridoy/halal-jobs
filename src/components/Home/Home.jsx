@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <div className="">
       <div className="banner my-bg-clr lg:flex lg:flex-row flex gap-5 px-5 lg:px-0 flex-col-reverse lg:h-[87vh] justify-between items-center ">
-        <div className="title lg:w-[50%] w-full space-y-5">
+        <div className="title lg:w-[100%] w-full space-y-5">
           <h1 className="text-xl lg:text-3xl font-bold">
             One Step Closereee To Your Dream{" "}
             <span className="text-blue-600">Halal Job </span>{" "}

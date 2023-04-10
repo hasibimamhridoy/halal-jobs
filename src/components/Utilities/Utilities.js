@@ -16,9 +16,9 @@ const setJobLocalStorage = (id) => {
 
       
         if (storedJobs.includes(id)) {
-            toast('🦄 Wow so easy!', {
+            toast.error('Already Applied!', {
                 position: "top-right",
-                autoClose: 300,
+                autoClose: 500,
                 hideProgressBar: false,
                 closeOnClick: true,
                 pauseOnHover: true,
@@ -30,10 +30,20 @@ const setJobLocalStorage = (id) => {
         }
 
         else{
+            
             storedJobs = [...storedJobs,id]
+            toast.success('Succesfully Applied!', {
+                position: "top-right",
+                autoClose: 500,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "light",
+                });
         }
 
-        // storedJobs = [...storedJobs,id]
     }
 
     localStorage.setItem('jobs',JSON.stringify(storedJobs))

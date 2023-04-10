@@ -59,7 +59,6 @@ const Layout = () => {
     console.log(value);
     if (value.toLowerCase() === 'show all') {
       return setFilterValue(jobs)
-      console.log('working');
     }
 
   

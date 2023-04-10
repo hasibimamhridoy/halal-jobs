@@ -25,10 +25,7 @@ const FeaturedJobs = ({ featuredJobs }) => {
       <div className="cardCategory lg:mt-14 items-center p-3 lg:p-0 lg:gap-5 gap-3 grid grid-cols-1 lg:grid-cols-2 ">
         
         
-        
-
-
-
+      
         {isShowMore ? featuredJobs.map((job, i)=> {
           return (
             <div

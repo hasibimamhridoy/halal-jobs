@@ -21,11 +21,12 @@ console.log(isFilter);
 
       <div className="flex justify-end">
 
-        <select onBlur={handleTrueFalse} onChange={(event) =>filterbyTime(event.target.value) } className="select select-secondary rounded-md mt-10  w-[15%] max-w-xs">
+        <select onChange={(event) =>filterbyTime(event.target.value) } className="select select-secondary rounded-md mt-10  w-[15%] max-w-xs">
           <option disabled selected>
             Filter by
           </option>
-          <option value='Remote' onClick={handleTrueFalse}>Remote</option>
+          <option value='Show All'>Show All</option>
+          <option value='Remote'>Remote</option>
           <option value='Onsite'>On Site</option>
          
         </select>

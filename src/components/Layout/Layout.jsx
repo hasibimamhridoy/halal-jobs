@@ -50,17 +50,27 @@ const Layout = () => {
    
   }, [featuredJobs]);
 
+
+
   const filterbyTime = (value) => {
     const jobs = [...applyJob];
     const newFilter = jobs.filter((job) => job.remote_or_onsite === value);
+
+    console.log(value);
+    if (value.toLowerCase() === 'show all') {
+      return setFilterValue(jobs)
+      console.log('working');
+    }
+
+  
    
     setFilterValue(newFilter);
     setIsfilter(true)
+   
   };
 
  
-
-
+  console.log(filterValue);
 
   return (
     <div className="border border-red-400 my-container">

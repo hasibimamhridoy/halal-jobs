@@ -14,6 +14,7 @@ import FeaturedJobsDetails from './components/FeaturedJobsDetails/FeaturedJobsDe
 import { ToastContainer, toast } from 'react-toastify';
 
 import 'react-toastify/dist/ReactToastify.css';
+import ErrorPage from './components/ErrorPage/ErrorPage';
 
 function App() {
 

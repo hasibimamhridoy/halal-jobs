@@ -1,5 +1,11 @@
 # b7a9-career-hub-hasibimamhridoy
 
+## Live Link
+Hosted in Netlify -> [Halal-Jobs](https://herogadget.netlify.app/)
+
+## Starter Template
+Github Repo -> [Halal-Jobs-Project](https://github.com/shakilahmedatik/heroGadget-starter)
+
 # Best Features of my Halal Jobs Projects
 
 1. See More Jobs Btn in featured job list : 

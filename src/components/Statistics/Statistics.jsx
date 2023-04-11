@@ -9,6 +9,7 @@ import {
   CartesianGrid,
   Tooltip,
   Legend,
+  ResponsiveContainer,
 } from "recharts";
 
 const Statistics = () => {
@@ -48,15 +49,13 @@ const Statistics = () => {
   ];
 
   return (
-   
 
-
-      <div>
+      <div className="px-2">
       <div className="title my-bg-clr h-52 flex  items-center justify-center">
         <h1 className="my-title">Assignment Marks</h1>
       </div>
 
-      <div className="analytics w-[70%] mb-10 text-white p-5 rounded-md mt-5 mx-auto space-y-3 bg-[#0d0d20]">
+      <div className="analytics lg:w-[70%] mb-10 text-white p-5 rounded-md mt-5 lg:mx-auto lg:space-y-3 bg-[#0d0d20]">
         <div className="title flex justify-between">
           <h1 className="text-xl">Assignment Analytics</h1>
           <label htmlFor="my-modal-3" className="btn"><InformationCircleIcon className="w-6 h-6 text-white"></InformationCircleIcon></label>
@@ -73,8 +72,9 @@ const Statistics = () => {
           </div>
         </div>
 
-        <div className="chart flex items-center justify-center mt-5">
-          <ComposedChart
+        <div className="chart  flex items-center justify-center mt-5">
+         <ResponsiveContainer width="100%" height={400}>
+         <ComposedChart
             width={800}
             height={400}
             data={data}
@@ -92,6 +92,7 @@ const Statistics = () => {
             <Tooltip />
             <Line type="monotone" dataKey="Marks" stroke="#4404a6" />
           </ComposedChart>
+         </ResponsiveContainer>
         </div>
       </div>
 
